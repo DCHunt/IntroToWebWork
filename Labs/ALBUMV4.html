@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
    <center> <head>
-    <link href="albumstyles.css" 
-      rel="stylesheet" 
-      type="text/css" />
+      
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script> 
+
+   <!-- <link rel="stylesheet"
+          href="C:\Repos\IntroToWebWork\Labs\albumstyles.css" 
+          type="text/css" />-->
 <style>
+
 body {
     background-color: grey;
 }
@@ -12,8 +27,12 @@ table { font-style: italic;
 
 }
 
+.table-responsive {
+    overflow-x: hidden;
+}
+
 tbody {
-  background-color: maroon;
+  background-color:lightgray;
 }
 
 h1 {
@@ -43,9 +62,15 @@ a:hover {
 a:active {
   font-weight: bold;
 }
+ table tr:nth-child(2n){
+     background: #f2f2f2
+     }
+ 
 </style>
-   <img src= "https://consequenceofsound.files.wordpress.com/2014/02/soundgarden-superunknown.jpg"
+   <div><img src= "https://consequenceofsound.files.wordpress.com/2014/02/soundgarden-superunknown.jpg"
+        class="img-circle"
         style="height: 300px;"/> 
+        </div>
     </head>
     <body>
         <h1 style="color:red;font-weight:bold;">Superunknown</h1>
@@ -62,9 +87,9 @@ a:active {
             <li>Ben Shepherd - bass guitar</li>
             <li>Matt Cameron - drums</li>
             <li>Michael Bienhorn - producer</li>
-        </ul>>
+        </ul>
         <table>
-            <table border="1" width="100%">
+            <table border="2" width="200%">
             <tr>
                 <th>track #</th>
                 <th>track title</th>
