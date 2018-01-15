@@ -1,11 +1,37 @@
-background-image: ;
-backround-repeat: repeat;
-
 body {
-    background-color: lightblue;
+    background-color: grey;
+}
+table { font-style: italic;
+
+}
+
+tbody {
+  background-color: maroon;
 }
 
 h1 {
-    color: pink;
-    margin-left: 20px;
+    color: maroon;
+    margin-left: 40px;
 }
+a {
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: none;
+}
+
+a:link {
+  color: Green;
+}
+
+a:visited {
+  color: Red;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00c;
+  font-family: cursive;
+}
+
+a:active {
+  font-weight: bold;
